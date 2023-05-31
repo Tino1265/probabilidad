@@ -408,3 +408,8 @@ a{
 .k2 p {
 	transform: translate(75px);
 }
+
+h3{
+	color: white;
+	font-size: 15px;
+}
