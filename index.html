@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Probabilidad</title>
+	<link rel="stylesheet" type="text/css" href="codigo.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=PT+Serif&display=swap" rel="stylesheet">
+    </head>
+<body>
+	<h1 class="titulo" id="titulo">SELECCIONE EL TIPO DE METODO</h1>
+	<div class="div1">
+		<a href="#binomial" class="binomial">Binomial</a>
+	</div>
+	<div class="div2">
+		<a href="#poisson" class="binomial" >poisson</a>
+	</div>
+	<div class="div3" >
+		<a href="#div-a" class="Hip">Hipergeometrica</a>
+	</div>
+	
+	<div class="div-2" id="binomial">
+        <div class="div-a">
+        	<a class="reg" href="#titulo">regresar</a>
+        </div>
+		<div class="div-21">
+			<h2 class="B1">Distribucion Binomial</h2>
+		    <form>
+		       <input type="number" placeholder="ingrese π" class="input1" id="input1" !required>
+		       <input type="number" placeholder="ingrese n" class="input2" !required>
+		       <input type="number" name="" placeholder="Ingrese la X" class="input3" !required>
+		       <button type="button"class="bCalcular" onclick="binomial()">CALCULAR</button>
+		    </form>
+	    </div>
+	</div>
+	<div class="Hipergeometrica">
+		<div class="div-a" id="div-a">
+        	<a class="reg" href="#titulo">regresar</a>
+        </div>
+		<h2 class="th" id="Hip">HIPERGEOMETRICA</h2>
+		<form>
+			<input type="number" class="h1" placeholder="ingrese la N">
+		    <input type="number" class="h2" placeholder="Ingrese la n">
+		    <input type="number" class="h3" placeholder="ingresa la S">
+		    <input type="number" class="h4" placeholder="Ingrese la x">
+		    <button type="submit" class="s1" onclick="hipergeometrica()">CALCULAR</button>
+		</form>
+	</div>
+	<div class="poisson">
+		<div class="div-a">
+        	<a class="reg" href="#titulo">regresar</a>
+        </div>
+		<h2 class="pois" id= "poisson">Poisson</h2>
+		<form>
+			<input type="number" name="" placeholder="ingrese µ" class="po1">
+			<input type="number" name="" placeholder="ingrese x" class="po2">
+			<button type="submit" onclick="poison()" class="pois1">Calcular</button>
+		</form>
+	</div>
+<script type="text/javascript" src="codigo.js"></script>
+</body>
+</html>
