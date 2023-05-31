@@ -1,0 +1,410 @@
+body{
+	background: #000;
+}
+
+.div-a{
+	display: inline-block;
+	width: 120px;
+	text-align: center;
+	background-color: #111;
+	border-radius: 50px;
+	transform: translate(40px,50px);
+}
+
+.div-a:hover{
+	outline: 0.5px solid #859;
+}
+
+.reg{
+	font-size: 20px;
+}
+
+.titulo{
+	font-family: 'PT Serif', serif;
+	color: #fff;
+	text-align: center;
+}
+
+
+a{
+	text-decoration:none;
+	color: #fff;
+}
+
+.binomial{
+	display: inline-block;
+	transform: translate(70px,25px);
+	font-family: 'Barlow', sans-serif;
+	transition: width;
+}
+
+.Hip{
+	display: inline-block;
+	transform: translate(50px,25px);
+	font-family: 'Barlow', sans-serif;
+	transition: width;
+}
+
+.div1{
+	border-radius: 30px;
+	background-color: #f00;
+    width: 200px;
+    height: 70px;	
+    margin: auto;
+    transform: translate(0px,50px);
+}
+
+.div2{
+	border-radius: 30px;
+	background-color: #f00;
+    width: 200px;
+    height: 70px;	
+    margin: auto;
+    transform: translate(-200px,70px);
+}
+
+.div3{
+	border-radius: 30px;
+	background-color: #f00;
+    width: 210px;
+    height: 70px;	
+    margin: auto;
+    transform: translate(210px,2px);
+
+}
+
+.hola{
+	display: block;
+	color: #fff;
+	
+}
+
+.B1{
+	color: white;
+	text-align: center;
+	transform: translate(0,50px);
+}
+
+.input1{
+	display: inline-block;
+	outline: none;
+	border: none;
+	width:200px;
+	font-size: 20px;
+	transform: translate(355px,30px);
+	background-color: #111;
+	height: 40px;
+	border-radius: 20px;
+	padding-left: 10px;
+	color: white;
+}
+
+.input1:hover{
+	outline: 0.2px solid red;
+}
+
+.input1:focus{
+	color: white;
+}
+
+
+.input2{
+	transform: translate(140px,100px);
+	display: inline-block;
+	outline: none;
+	border: none;
+	width:200px;
+	background-color: #111;
+	height: 40px;
+	border-radius: 20px;
+	padding-left: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+.input2:hover{
+	outline: 0.2px solid red;
+}
+
+
+.div-2{
+	transform: translate(10px,-520px);
+	margin-top: 1100px;
+	width: 900px;
+	height: 500px;
+	background-color: #015;
+	margin-left: 230px;
+	border-radius: 20%;
+	border: 1px solid #040;
+}
+
+.input3{
+	transform: translate(-75px,168px);
+	display: inline-block;
+	outline: none;
+	border: none;
+	width:200px;
+	background-color: #111;
+	height: 40px;
+	border-radius: 20px;
+	padding-left: 10px;
+	color: white;
+	font-size: 20px;
+}
+
+
+.input3:hover{
+	outline: 0.2px solid red;
+}
+
+
+.bCalcular{
+	color: white;
+	transform: translate(-260px,250px);
+	background-color: #111;
+	width: 150px;
+	height: 60px;
+	border-radius: 40px;
+	border:none;
+	font-family: 'PT Serif', serif;
+	outline: 0.1px solid #338;
+}
+
+.bCalcular:hover{
+	outline: 0.2px solid red;
+	color: #05a;
+}
+
+.div-21{
+	margin: 0;
+}
+
+
+.resultado{
+	color: red;
+	width: 10px;
+	text-align: center;
+    font-family: 'PT Serif', serif;
+	transform: translate(300px,-600px);
+}
+
+
+
+.div-4{
+	color: white;
+
+	width: 10px;
+	text-align: center;
+    font-family: 'PT Serif', serif;
+	transform: translate(610px,-1750px);
+	width: 200px;
+	background-color: #111;
+	display: inline-block;
+	border-radius: 50px;
+	height: 70px;
+	border: 0.5px solid #084;
+	font-size: 20px;
+}
+
+.div-4 p{
+	transform: translate(0px,3px);
+}
+
+.Hipergeometrica{
+	width: 700px;
+	height: 600px;
+	background-color: #148;
+	color: white;
+	border-radius: 50px;
+	margin: auto;
+	outline: 1px solid #624
+}
+
+.th{
+	text-align: center;
+	transform: translate(0px, 30px);
+}
+
+.h1{
+	background-color: #111;
+	border: none;
+	outline: none;
+	color: white;
+	width: 200px;
+	height: 40px;
+	border-radius: 50px;
+	padding-left: 10px;
+	transform: translate(230px,30px);
+	font-size: 20px;
+}
+
+.h1:hover{
+	outline: 0.5px solid #927;
+}
+
+.h2{
+	background-color: #111;
+	border: none;
+	outline: none;
+	color: white;
+	width: 200px;
+	height: 40px;
+	border-radius: 50px;
+	padding-left: 10px;
+	transform: translate(16px,97px);
+	font-size: 20px;
+}
+
+.h2:hover{
+	outline: 0.5px solid #927;
+}
+
+.h3{
+    background-color: #111;
+	border: none;
+	outline: none;
+	color: white;
+	width: 200px;
+	height: 40px;
+	border-radius: 50px;
+	padding-left: 10px;
+	transform: translate(-199px,164px);	
+	font-size: 20px;
+}
+
+.h3:hover{
+	outline: 0.5px solid #927;
+}
+
+.h4{
+	background-color: #111;
+	border: none;
+	outline: none;
+	color: white;
+	width: 200px;
+	height: 40px;
+	border-radius: 50px;
+	padding-left: 10px;
+	transform: translate(236px,190px);
+	font-size: 20px;
+}
+
+.h4:hover{
+	outline: 0.5px solid #927;
+}
+
+.s1{
+	color: white;
+	background-color: #111;
+	width: 150px;
+	height: 60px;
+	border-radius: 40px;
+	border:none;
+	font-family: 'PT Serif', serif;
+	outline: 0.1px solid #3fa;
+	transform: translate(50px,280px);
+}
+
+.s1:hover{
+	outline: 0.5px solid #923;
+	color: #902;
+}
+
+.k1{
+	color: white;
+	width: 200px;
+	background-color: #111;
+	display: inline-block;
+	border-radius: 50px;
+	height: 70px;
+	border: 0.5px solid #754;
+	font-size: 20px;
+	transform: translate(532px,-650px);
+}
+
+.k1 p {
+	transform: translate(60px);
+}
+
+.poisson{
+    width: 700px;
+	height: 550px;
+	background-color: #000;
+	color: white;
+	border-radius: 50px;
+	margin: auto;
+	outline: 1px solid #189;	
+	transform: translate(0px, 700px);
+}
+
+.pois{
+	text-align: center;
+	transform: translate(0px, 30px);
+}
+
+.po1{
+	outline: none;
+	border-radius: 50px;
+	border:none;
+	padding-left: 10px;
+	width: 200px;
+	height: 40px;
+	color: white;
+	font-size: 20px;
+	background-color: #111;
+	transform: translate(240px, 40px);
+}
+
+.po1:hover{
+	outline: 0.5px solid #932;
+}
+
+.po2{
+	outline: none;
+	border-radius: 50px;
+	border:none;
+	padding-left: 10px;
+	width: 200px;
+	height: 40px;
+	color: white;
+	font-size: 20px;
+	background-color: #111;
+	transform: translate(23px,120px);
+}
+
+.po2:hover{
+	outline: 0.5px solid #479;
+}
+
+.pois1{
+	color: white;
+	background-color: #111;
+	width: 150px;
+	height: 60px;
+	border-radius: 40px;
+	border:none;
+	font-family: 'PT Serif', serif;
+	outline: 0.1px solid #3fa;
+	transform: translate(-159px,210px);
+}
+
+.pois1:hover{
+	outline: 0.5px solid #189;
+	color: #593;
+}
+
+.k2{
+	color: white;
+	width: 200px;
+	background-color: #111;
+	display: inline-block;
+	border-radius: 50px;
+	height: 70px;
+	border: 0.5px solid #168;
+	font-size: 20px;
+	transform: translate(550px,550px);
+}
+
+.k2 p {
+	transform: translate(75px);
+}
